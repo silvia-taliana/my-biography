@@ -1,16 +1,83 @@
+/* Styling for all pages */
+body {
+    background-image: URL('assets/background.jpg');
+    background-size: cover;
+}
+
+header {
+    background-color: black;
+    height: 60px;
+    font-family: 'Pacifico', cursive;
+}
+
+nav {
+    float: right;
+    background-color: black;
+}
+
 h1 {
     position: absolute;
     float: left;
     font-size: 40px;
+    color: rgb(238, 87, 175);
+    font-family: 'Pacifico', cursive;
+    padding: 5px;
 }
 
 h2 {
     position: relative;
     float: left;
     font-size: 60px;
+    margin-left: 30px;
+    font-family: 'Pacifico', cursive;
 }
 
-img {
+.container {
+    max-width: 80%;
+    margin: 80px 100px 100px 100px;
+}
+
+/* styling about me page (index.html) */
+p {
+    margin: 20px;
+    padding: 20px;
+    font-weight: bold;
+    font-family: 'Acme', sans-serif;
+    background-color: rgb(247, 201, 247);
+}
+
+#profile {
+    margin: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 250px;
+}
+
+/* styling contact page */
+label {
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+
+.btn {
+    background-color:rgb(238, 87, 175);
+    border-color: rgb(238, 87, 175);
+    color: black;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+
+.form-control {
+    background-color: rgb(247, 201, 247);
+}
+
+/* styling portfolio page*/
+.portfolioImg {
     position: relative;
     float: left;
     width: 200px;
@@ -18,7 +85,7 @@ img {
     margin: 20px;
 }
 
-#buckingham {
+.buckingham {
     position: relative;
     float: left;
     width: 350px;
@@ -26,7 +93,7 @@ img {
     margin: 20px;
 }
 
-#elephant {
+.elephant {
     position: relative;
     float: left;
     width: 350px;
@@ -34,13 +101,29 @@ img {
     margin: 20px;
 }
 
+/* styling additional screen sizes */
+@media screen and (max-width: 700px) {
+    .container {
+        margin: 30px;
+    }
+    .buckingham {
+        position: relative;
+        float: left;
+        width: 200px;
+        height: 150px;
+        margin: 20px;
+    }
+    .elephant {
+        position: relative;
+        float: left;
+        width: 200px;
+        height: 150px;
+        margin: 20px;
+    }
+    }
+
+@media screen and (max-width: 360px) {
 .container {
-    max-width: 1000px;
-    margin: 100px 100px 0 100px;
-}
-
-p {
-    position: relative;
     margin: 20px;
 }
-
+}
