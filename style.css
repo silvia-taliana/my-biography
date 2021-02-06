@@ -77,11 +77,19 @@ label {
 }
 
 /* styling portfolio page*/
-.portfolioImg {
+.project {
     position: relative;
     float: left;
-    width: 200px;
-    height: 250px;
+    max-width: 300px;
+    height: auto;
+    margin: 20px;
+}
+
+#joke {
+    position: relative;
+    float: left;
+    max-width: 200px;
+    height: auto;
     margin: 20px;
 }
 
@@ -90,6 +98,7 @@ label {
     .container {
         margin: 30px;
     }
+}
 
 @media screen and (max-width: 360px) {
 .container {
