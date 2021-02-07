@@ -98,10 +98,18 @@ label {
     .container {
         margin: 30px;
     }
+    body {
+        background-image: URL('assets/small-background.jpg');
+        background-size: cover;
+    }
 }
 
 @media screen and (max-width: 360px) {
 .container {
     margin: 20px;
+}
+body {
+    background-image: URL('assets/small-background.jpg');
+    background-size: cover;
 }
 }
