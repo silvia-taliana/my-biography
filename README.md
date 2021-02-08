@@ -15,19 +15,11 @@ CSS styling was added to help place everything in the right position with paddin
 
 The number 8 in the class=col-md-8 refers to the number of colums that this section is taking up. The other 4 columns for this row were intentionally left blank so this section was not covering the whole screen and some of the background was allowed to show in the blank areas. 
 
-Media queries were added in the end due to the fact that a couple of the picures on the portfolio page were too large for a small screen. The media queries made sure that when the screen size was reduced past a certain amount, the pictures would shrink to fit the screen. 
-
 ## Usage
 
-Examples of how the website looks on different size screens are shown below. 
-
-![pic](./assets/screenshot-phone.png)
+![pic](./assets/screenshot-phone.jpg)
 
 The above picture is an example of how the website looks on a typical phone screen. The nav bar has collapsed thanks to bootstrap so it fits well on the screen and will drop down to the different nav elements when clicked on by the user. 
-
-![pic](./assets/screenshot-tablet.png)
-
-This picture shows the screen on a typically sized tablet. Thanks again to bootstrap, the pictures have floated underneath each other rather than squeezing in next to each other and looking untidy. 
 
 ## License
 
